@@ -1,0 +1,22 @@
+{
+  "update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version": 2,
+  "name": "Gmail Inline Image Fit",
+  "short_name": "Gmail Image Fit",
+  "version": "0.9",
+
+  "description": "Makes inline images fit the width of Gmail's message box. Get rid of that nasty horizontal scrolling!",
+  "icons": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png",
+      "400": "icons/icon400.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/*"],
+        "css": ["main.css"]
+      }
+    ]
+
+  }
