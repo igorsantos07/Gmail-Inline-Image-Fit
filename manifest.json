@@ -1,11 +1,13 @@
 {
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version": 2,
+  "version": "0.9.2",
+
   "name": "Gmail Inline Image Fit",
   "short_name": "Gmail Image Fit",
-  "version": "0.9.1",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
 
-  "description": "Get rid of that nasty horizontal scrolling, with inline images fitting Gmail's message area.",
   "icons": {
       "48": "icons/icon48.png",
       "128": "icons/icon128.png",
