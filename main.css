@@ -1,4 +1,4 @@
-.h7 img:not([role=button]):not([role=menu]) {
+.h7 img:not([role=button]):not([role=menu]):not([width]) {
   max-width: 100%;
   width: auto !important;
   height: auto !important;
