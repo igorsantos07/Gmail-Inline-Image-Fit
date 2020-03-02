@@ -1,7 +1,7 @@
 {
   "update_url":"http://clients2.google.com/service/update2/crx",
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Gmail Inline Image Fit",
   "short_name": "Gmail Inline Image Fit",
   "description": "__MSG_appDesc__",

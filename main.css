@@ -1,4 +1,11 @@
-.h7 img:not([role=button]):not([role=menu]) {
+/*
+ * [data-message-id] is intended to match the element that wraps an individual
+ * email reply, where it is the direct parent of the vertical split that
+ * separates the sender's profile picture from the email content. The first
+ * child of this element is the profile picture pane while the second child of
+ * this element is the rest of the email content.
+ */
+[data-message-id] > div:nth-child(2) img:not([role=button]):not([role=menu]) {
   max-width: 100%;
   width: auto !important;
   height: auto !important;
