@@ -5,7 +5,7 @@
  * child of this element is the profile picture pane while the second child of
  * this element is the rest of the email content.
  */
-[data-message-id] > div:nth-child(2) img:not([role=button]):not([role=menu]):not([width]):not([src="images/cleardot.gif"]) {
+[data-message-id] > div:nth-child(2) img:not([role=button]):not([role=menu]):not([width]):not([src="images/cleardot.gif"]):not([data-emoji]) {
   max-width: 100%;
   width: auto !important;
   height: auto !important;
